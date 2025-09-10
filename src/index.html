@@ -1,4 +1,227 @@
-<!doctype html>
+<!doctype html><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Templates profissionais para Canva e design digital. Convites, portfólios, planners e ebooks editáveis. Licença comercial incluída.">
+    <meta name="keywords" content="templates, canva, design, convites, portfólio, planner, ebook">
+    <meta name="author" content="Nesci Sousa">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Templates Profissionais por Nesci Sousa">
+    <meta property="og:description" content="Templates profissionais para Canva e design digital. Convites, portfólios, planners e ebooks editáveis.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nescisousa.com">
+    <meta property="og:image" content="https://nescisousa.com/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Templates Profissionais por Nesci Sousa">
+    <meta name="twitter:description" content="Templates profissionais para Canva e design digital.">
+    
+    <title>Templates Profissionais por Nesci Sousa</title>
+    
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Nesci Sousa",
+        "url": "https://nescisousa.com",
+        "description": "Templates profissionais para design digital",
+        "sameAs": [
+            "https://instagram.com/nescisousa"
+        ]
+    }
+    </script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#inicio">Templates Profissionais</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link">Início</a>
+                <a href="#templates" class="nav-link">Templates</a>
+                <a href="#beneficios" class="nav-link">Benefícios</a>
+                <a href="#depoimentos" class="nav-link">Depoimentos</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contato" class="nav-link">Contato</a>
+                <a href="#templates" class="btn btn-primary">Comprar agora</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Crie projetos incríveis em minutos</h1>
+                <p class="hero-subtitle">Templates profissionais prontos para usar no Canva. Economize tempo e impressione seus clientes com designs únicos e modernos.</p>
+                <div class="hero-buttons">
+                    <a href="#templates" class="btn btn-primary">Ver Templates</a>
+                    <a href="#" class="btn btn-secondary" id="whatsapp-btn">Falar no WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section class="benefits" id="beneficios">
+        <div class="container">
+            <h2 class="section-title">Por que escolher nossos templates?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">✏️</div>
+                    <h3>Fácil de editar</h3>
+                    <p>Templates totalmente editáveis no Canva. Mude cores, textos e imagens em poucos cliques.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎨</div>
+                    <h3>Compatível com Canva</h3>
+                    <p>Todos os templates são otimizados para funcionar perfeitamente na plataforma Canva.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">⚡</div>
+                    <h3>Suporte rápido</h3>
+                    <p>Dúvidas? Entre em contato via WhatsApp e receba ajuda em até 2 horas.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">💼</div>
+                    <h3>Licença comercial</h3>
+                    <p>Use os templates em projetos comerciais sem limitações. Licença incluída na compra.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Templates Section -->
+    <section class="templates-section" id="templates">
+        <div class="container">
+            <h2 class="section-title">Nossos Templates</h2>
+            
+            <!-- Controles -->
+            <div class="templates-controls">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Buscar templates...">
+                </div>
+                <div class="filter-controls">
+                    <select id="category-filter">
+                        <option value="">Todas as categorias</option>
+                        <option value="Convites">Convites</option>
+                        <option value="Portfólios">Portfólios</option>
+                        <option value="Planners">Planners</option>
+                        <option value="Ebooks">Ebooks</option>
+                    </select>
+                    <select id="sort-select">
+                        <option value="newest">Mais novos</option>
+                        <option value="price-low">Menor preço</option>
+                        <option value="price-high">Maior preço</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Grid de Templates -->
+            <div class="templates-grid" id="templates-grid">
+                <!-- Preenchido via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Prova Social -->
+    <section class="social-proof">
+        <div class="container">
+            <div class="social-proof-grid">
+                <div class="proof-item">
+                    <div class="proof-number">+500</div>
+                    <div class="proof-text">Downloads</div>
+                </div>
+                <div class="proof-item">
+                    <div class="proof-number">4.9/5</div>
+                    <div class="proof-text">Avaliação</div>
+                </div>
+                <div class="proof-item">
+                    <div class="proof-number">24h</div>
+                    <div class="proof-text">Suporte</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="testimonials" id="depoimentos">
+        <div class="container">
+            <h2 class="section-title">O que nossos clientes dizem</h2>
+            <div class="testimonials-grid" id="testimonials-grid">
+                <!-- Preenchido via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            <div class="faq-list" id="faq-list">
+                <!-- Preenchido via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Pronto para criar designs incríveis?</h2>
+            <p>Junte-se a centenas de designers e empreendedores que já transformaram seus projetos.</p>
+            <a href="#templates" class="btn btn-primary btn-large">Quero começar agora</a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Templates Profissionais</h3>
+                    <p>Designs únicos para seus projetos</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#termos">Termos de Uso</a>
+                    <a href="#politica">Política de Privacidade</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" id="instagram-link" target="_blank">Instagram</a>
+                    <a href="mailto:contato@nescisousa.com">E-mail</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nesci Sousa. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button class="back-to-top" id="back-to-top" aria-label="Voltar ao topo">
+        ↑
+    </button>
+
+    <!-- Toggle Tema -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema">
+        🌙
+    </button>
+
+    <script src="main.js" defer></script>
+</body>
+</html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
